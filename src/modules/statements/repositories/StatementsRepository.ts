@@ -52,8 +52,6 @@ export class StatementsRepository implements IStatementsRepository {
       }
     }, 0)
 
-    console.log(balance);
-
     if (with_statement) {
       return {
         statement,
